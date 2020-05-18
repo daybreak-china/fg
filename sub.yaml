@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 Proxy:
-  - {name: 不能用联系我, server: c9s3.jamjams.net, port: 29126, type: ss, cipher: aes-256-gcm, password: nfYnmWuqMP, plugin: obfs, plugin-opts: {mode: tls, host: baidu.com}}
+  - {name: 不能用联系我, server: c9s3.jamjams.net, port: 15613, type: ss, cipher: aes-256-gcm, password: nfYnmWuqMP, plugin: obfs, plugin-opts: {mode: tls, host: bing.com}}
 Proxy Group:
   - name: 🔰 节点选择
     type: select
